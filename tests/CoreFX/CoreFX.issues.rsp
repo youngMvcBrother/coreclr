@@ -435,3 +435,6 @@
 
 # Disable Microsoft.Bcl.AsyncInterfaces tests
 -noclass System.Threading.Tasks.Sources.Tests.ManualResetValueTaskSourceTests
+
+# https://github.com/dotnet/coreclr/pull/24604
+-nomethod System.Security.Cryptography.Rsa.Tests.RSAXml.FromNonsenseXml
